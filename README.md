@@ -5,4 +5,6 @@
 We gonna play billard, we gonna learn physics and threejs here, and the goal is just to have fun
 
 From Nicholas Lever tutorials and Code Pens
+  
+![chrome-capture-2022-2-30](https://user-images.githubusercontent.com/57709433/160886669-569f1ea6-b4f3-49ee-a450-ce1bb4e6830c.gif)
 </div>
