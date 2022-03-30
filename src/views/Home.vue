@@ -5,7 +5,7 @@
       <p id="subtitle">We gonna play billard, we gonna learn physics and threejs here, and the goal is just to have fun</p>
     </div>
     <div id="footer">
-      © Following <a href="https://www.linkedin.com/in/vincent-larreur/" target="_blank" rel="noopener noreferrer" class="link">Nicholas Lever tutorial</a>
+      © Following <a href="https://niklever.com/courses/" target="_blank" rel="noopener noreferrer" class="link">Nicholas Lever tutorial</a>
     </div>
   </div>
 </template>

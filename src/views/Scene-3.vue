@@ -2,10 +2,10 @@
   <div id="scene-3">
     <div id="buttons" class="higher">
       <button>
-        <span id="hit" class="button_top">Shoot</span>
+        <span id="hit2" class="button_top">Shoot</span>
       </button>
       <button>
-        <span id="reset" class="button_top">Reset</span>
+        <span id="reset2" class="button_top">Reset</span>
       </button>
     </div>
   </div>
@@ -694,7 +694,7 @@ class Game {
 
     this.strengthBar = new StrengthBar();
 
-    const strengthControl = document.getElementById("hit");
+    const strengthControl = document.getElementById("hit2");
 
     if ("ontouchstart" in document.documentElement) {
       strengthControl.addEventListener("touchstart", this.mousedown.bind(this));
@@ -706,7 +706,7 @@ class Game {
       document.addEventListener("keyup", this.keyup.bind(this));
     }
 
-    document.getElementById('reset').addEventListener('click', () => {
+    document.getElementById('reset2').addEventListener('click', () => {
       console.log('reset')
       for (let i = 0; i < this.balls.length; i++) {
         this.balls[i].reset()

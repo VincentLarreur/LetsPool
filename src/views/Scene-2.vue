@@ -2,10 +2,10 @@
   <div id="scene-2">
     <div id="buttons">
       <button>
-        <span id="hit" class="button_top">Shoot</span>
+        <span id="hit1" class="button_top">Shoot</span>
       </button>
       <button>
-        <span id="reset" class="button_top">Reset</span>
+        <span id="reset1" class="button_top">Reset</span>
       </button>
     </div>
   </div>
@@ -407,11 +407,11 @@ class Game{
      this.initWorld();
      this.initScene();
      
-     const elm = document.getElementById('hit');
+     const elm = document.getElementById('hit1');
      elm.addEventListener('click', () => {
        this.cueball.hit();
      })
-     document.getElementById('reset').addEventListener('click', () => {
+     document.getElementById('reset1').addEventListener('click', () => {
       for (let i = 0; i < this.balls.length; i++) {
         this.balls[i].reset()
       }
