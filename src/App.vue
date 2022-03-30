@@ -69,6 +69,8 @@ html, body {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
+  width: 80%;
+  text-align: center;
 }
 
 #buttons {

@@ -73,6 +73,8 @@ export default class Home extends Vue {
   transform: translateX(-50%);
   font-size: 14px;
   color: rgba(black, .75);
+  width: 80%;
+  text-align: center;
 
   a {
     color: rgba(black, .6);
